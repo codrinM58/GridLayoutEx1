@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="2"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@color/colorRed"
+        android:gravity="right|center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="Cod"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@color/colorBlue"
+        android:gravity="left|center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="rin"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@color/colorYellow"
+        android:gravity="right|center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:text="Mata"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@color/colorYellow"
+        android:gravity="left|center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:text="che "
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@color/colorGreen"
+        android:gravity="right|center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="Cod"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:background="@color/colorLime"
+        android:gravity="left|center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:text="rin"
+        />
+
+</GridLayout>
